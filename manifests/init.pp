@@ -4,8 +4,8 @@
 #
 #  include citrix_ica_client
 class citrix_ica_client {
-  package { '':
-    provider => '',
-    source   => '',
+  package { 'Citrix ICA Client':
+    provider => 'appdmg',
+    source   => 'https://yum.cegeka.be/osx_packages/Citrix-ICA-Client-11.2.0.dmg',
   }
 }
